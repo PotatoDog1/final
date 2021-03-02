@@ -33,3 +33,49 @@
 #panel1, #panel2, #panel3, #panel4, #panel5, #panel6 {
   display: none;
 }
+
+/* styles each of the sections */
+html {
+  scroll-behavior: smooth;
+}
+
+#topic0 {
+  height: 600px;
+  background-color: tan;
+}
+
+
+#topic1 {
+  height: 2000px;
+  background-color: pink;
+}
+
+#topic2 {
+  height: 600px;
+  background-color: yellow;
+}
+
+#topic3 {
+  height: 600px;
+  background-color: orange;
+}
+
+#topic4 {
+  height: 600px;
+  background-color: green;
+}
+
+#topic5 {
+  height: 600px;
+  background-color: blue;
+}
+
+#topic6 {
+  height: 900px;
+  background-color: teal;
+}
+
+#topic7 {
+  height: 900px;
+  background-color: pink;
+}
