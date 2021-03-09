@@ -7,17 +7,21 @@
     fill:#FF606A;
 }
 
+
+
 .mapdiv path{
   fill: #ADFFB4;
   stroke: black;
 }
-
+#CA,#OR,#NV,#WA,#NM,#AZ,#HI,#AK{
+  fill:black;
+}
 #spoutput{
 }
 
 
 
-
+/* end of map shit */
 
 /* colors of the panels, display is default invisible */
 #flip1, #flip2, #flip3, #flip4, #flip5, #flip6 {
