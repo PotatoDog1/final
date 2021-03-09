@@ -23,7 +23,10 @@ $('#AL').hover(alFunction);
 
 
 
+
+
 function flFunction() {
+  $("#FL").style.color= "red";
  $("#spoutput").html(
    "<h1>FLORIDA</h1>"
 
@@ -96,6 +99,128 @@ function txFunction() {
 );
 }
 $('#TX').hover(txFunction);
+
+
+
+//state slots part 2
+
+
+
+function gaFunction() {
+ $("#spoutput").html(
+   "<h1>GEORGIA</h1>"
+
+
+);
+}
+$('#GA').hover(gaFunction);
+
+
+
+function idFunction() {
+ $("#spoutput").html(
+   "<h1>INDIANA</h1>"
+
+
+);
+}
+$('#ID').hover(idFunction);
+
+
+
+
+function kyFunction() {
+ $("#spoutput").html(
+   "<h1>KENTUCKY</h1>"
+
+
+);
+}
+$('#KY').hover(kyFunction);
+
+
+
+
+
+function miFunction() {
+ $("#spoutput").html(
+   "<h1>MICHIGAN</h1>"
+
+
+);
+}
+$('#MI').hover(miFunction);
+
+
+
+
+function moFunction() {
+ $("#spoutput").html(
+   "<h1>MISSOURI</h1>"
+
+
+);
+}
+$('#MO').hover(moFunction);
+
+
+
+function ndFunction() {
+ $("#spoutput").html(
+   "<h1>NORTH DAKOTA</h1>"
+
+
+);
+}
+$('#ND').hover(ndFunction);
+
+
+
+
+
+function ohFunction() {
+ $("#spoutput").html(
+   "<h1>OHIO</h1>"
+
+
+);
+}
+$('#OH').hover(ohFunction);
+
+
+
+function scFunction() {
+ $("#spoutput").html(
+   "<h1>SOUTH CAROLINA</h1>"
+
+
+);
+}
+$('#SC').hover(scFunction);
+
+
+
+
+function tnFunction() {
+ $("#spoutput").html(
+   "<h1>TENNESSEE</h1>"
+
+
+);
+}
+$('#TN').hover(tnFunction);
+
+
+
+
+function utFunction() {
+ $("#spoutput").html(
+   "<h1>UTAH</h1>"
+
+
+);
+}
+$('#UT').hover(utFunction);
 
 
 //end spoutput functions
