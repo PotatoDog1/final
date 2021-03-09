@@ -222,8 +222,28 @@ function utFunction() {
 }
 $('#UT').hover(utFunction);
 
+function wvFunction() {
+ $("#spoutput").html(
+   "<h1>WEST VIRGINIA</h1>"
 
-//end spoutput functions
+
+);
+}
+$('#WV').hover(wvFunction);
+
+
+
+
+function vaFunction() {
+ $("#spoutput").html(
+   "<h1>VIRGINIA</h1>"
+
+
+);
+}
+$('#VA').hover(vaFunction);
+
+//end state slots
 
 var slideIndex = 1;
 showSlides(slideIndex);
