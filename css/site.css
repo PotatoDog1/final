@@ -7,12 +7,15 @@
     fill:#FF606A;
 }
 
+
+
 .mapdiv path{
   fill: #ADFFB4;
   stroke: black;
 }
 
-#spoutput{
+#CA,#OR,#NV,#WA,#NM,#AZ,#HI,#AK,#MT,#WY,#SD,#WI,#MN,#KS,#NE,#AR,#IA,#IN,#ME,#MA,#VT,#RI,#CT,#NJ,#NH,#NY,#PA,#DA,#MD,#DC,#DE,#CO{
+  fill:black;
 }
 
 
