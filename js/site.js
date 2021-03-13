@@ -313,7 +313,7 @@ $("#flip6").click(function() {
   $("#panel6").toggle();
 })
 
-//slideshow Javascript
+//slideshow Javascript Topic 5 (Solomon)
 var slideIndex = 1;
 showSlides(slideIndex);
 
