@@ -37,6 +37,10 @@ h2, h3{
 /* colors of the panels for section 3, display is default invisible */
 /* alternating colors for flip1, flip3, flip5, and flip2, flip4, flip6 */
 /* alternating colors for section 3, colored in blue */
+#link1:link, #link2:link, #link3:link, #link4:link, #link5:link, #link6:link{
+  text-decoration: none;
+}
+
 #flip1:hover, #flip3:hover,  #flip5:hover {
   background-color: #ed8c92;
 }
@@ -73,18 +77,26 @@ h2, h3{
 #panel1, #panel3, #panel5 {
   display: none;
   background-color: #a1ffad;
+  padding:30px;
 }
 
 #panel2, #panel4, #panel6 {
   display: none;
   background-color: #ed8c92;
+  padding:30px;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* look up tooltip */
 /* styles each of the sections */
 html {
   scroll-behavior: smooth;
 }
-
+/*
 #topic0 {
   height: 600px;
   background-color: tan;
@@ -129,7 +141,7 @@ html {
 #topic7 {
   height: 900px;
   background-color: pink;
-}
+} */
 
 /*Topic 4 Slideshow css*/
 * {box-sizing:border-box}
