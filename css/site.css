@@ -43,19 +43,22 @@ h2, h3{
 
 #flip1:hover, #flip3:hover,  #flip5:hover {
   background-color: #ed8c92;
+  font-size: 110%;
+  overflow: hidden;
 }
 #flip2:hover, #flip4:hover, #flip6:hover {
   background-color: #a1ffad;
+  font-size: 110%;
+  overflow: hidden;
 }
 #flip1, #flip3, #flip5 {
-  transition-duration: .5s;
+  transition-duration: .8s;
   font-size: 16px;
   text-shadow: 2px 2px #0dbfb4;
   padding: 10px;
   text-align: center;
   background-color: #8cede7;
   color: white;
-  border: solid 1px #a6d8a8;
   margin: auto;
 }
 
@@ -68,7 +71,6 @@ h2, h3{
   text-align: center;
   background-color: #ffa1f2;
   color: white;
-  border: solid 1px #a6d8a8;
   margin: auto;
 
 }
@@ -76,16 +78,17 @@ h2, h3{
 /* information within each flip header */
 #panel1, #panel3, #panel5 {
   display: none;
-  background-color: #a1ffad;
+  background-color: #defffd;
   padding:30px;
 }
 
 #panel2, #panel4, #panel6 {
   display: none;
-  background-color: #ed8c92;
+  background-color: #ffe0fb;
   padding:30px;
 }
 
+/* center images */
 img {
   display: block;
   margin-left: auto;
@@ -96,6 +99,8 @@ img {
 html {
   scroll-behavior: smooth;
 }
+
+
 /*
 #topic0 {
   height: 600px;
