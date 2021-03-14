@@ -54,8 +54,12 @@ body {
   font-family: sans-serif;
 }
 
-p {
+p, a, figcaption {
   font-size: 20px;
+}
+
+li {
+  font-size: 18px;
 }
 
 h2, h3{
@@ -125,6 +129,18 @@ h2, h3{
 /* colors of the panels for section 3, display is default invisible */
 /* alternating colors for flip1, flip3, flip5, and flip2, flip4, flip6 */
 /* alternating colors for section 3, colored in blue */
+figcaption {
+  padding-top: 10px;
+}
+
+#topic3 {
+  background-color: #b3ffc6;
+  padding: 40px;
+  margin-bottom: 20px;
+  box-shadow: 8px 10px #ffd1f4;
+  border: 5px solid #bfe0ff;
+}
+
 #link1:link, #link2:link, #link3:link, #link4:link, #link5:link, #link6:link{
   text-decoration: none;
 }
@@ -177,10 +193,11 @@ h2, h3{
 }
 
 /* center images */
-img {
+#topic3 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 8px 10px #bfe0ff;
 }
 /* look up tooltip */
 /* styles each of the sections */
