@@ -104,49 +104,54 @@ html {
 /*
 #topic0 {
   height: 600px;
-  background-color: tan;
+
 }
 
 
 #topic1 {
   height: 2000px;
-  background-color: pink;
+
 }
 
 #topic2 {
   height: 600px;
-  background-color: yellow;
+
 }
 
 #topic3 {
   height: 600px;
-  background-color: orange;
+
 }
 
 #topic4 {
   height: 600px;
-  background-color: green;
+
 }
 
+/* Is this needed?
 .slideshowContainer {
   position: absolute;
   right: 0px;
 }
-
+*/
+/*
 #topic5 {
   height: 600px;
-  background-color: blue;
+
 }
 
 #topic6 {
   height: 900px;
-  background-color: teal;
+
 }
 
 #topic7 {
   height: 900px;
-  background-color: pink;
-} */
+
+}
+*/
+
+
 
 /*Topic 4 Slideshow css*/
 * {box-sizing:border-box}
