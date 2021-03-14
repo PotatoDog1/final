@@ -61,6 +61,45 @@ h2, h3{
 }
 /* end of Gillian's changes to the css */
 
+/* Elena's changes to flags */
+.flag {
+  width: 250px;
+  height: 180px;
+}
+
+.img_wrap {
+  position: relative;
+  width: 250px;
+  height: 180px;
+}
+
+.img_description{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: absolute;
+  visibility: hidden;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #323332;
+  top: 35%;
+  text-shadow: 3px 3px black;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.img_wrap:hover .img_description {
+  visibility: visible;
+  opacity: 1;
+}
+
+
 /* map shit */
 .mapdiv :hover{
     fill:#FF606A;
