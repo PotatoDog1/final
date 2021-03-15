@@ -1,3 +1,7 @@
+html {
+  background: #0d0d0d;
+}
+
 /* Dropdown Button */
 .dropbtn {
   background-color: #ed8c92;
@@ -7,7 +11,8 @@
   border: none;
   cursor: pointer;
   position: fixed;
-  right: 0;
+  top: 5px;
+  right: 5px;
 }
 
 /* Dropdown button on hover & focus */
@@ -17,7 +22,8 @@
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-  float: right;
+  top: 55px;
+  right: 172px;
   position: fixed;
   display: inline-block;
 }
@@ -206,42 +212,44 @@ html {
 }
 
 
-/*
+
 #topic0 {
   height: 600px;
   background-color: tan;
+  padding: 15px;
 }
 
 #topic1 {
   height: 2000px;
   background-color: pink;
-
+  padding: 15px;
+}
 
 #topic2 {
   height: auto;
   background-color: yellow;
+  padding: 15px;
 }
 
 #topic3 {
   height: auto;
   background-color: orange;
-}*/
-
-#topic4 {
-  height: auto;
-  background-color: teal;
   padding: 15px;
 }
 
-/*#topic5 {
-  height: 600px;
-  background-color: blue;
+#topic4 {
+  background-color: teal;
+  padding: 40px;
+  margin-bottom: 20px;
+  box-shadow: 8px 10px green;
+  outline: 5px solid yellow;
 }
 
-#topic7 {
-  height: 900px;
+#topic5 {
+  height: 600px;
   background-color: pink;
-} */
+  padding: 15px;
+}
 
 /*Topic 4 Slideshow css*/
 * {box-sizing:border-box}
