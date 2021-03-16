@@ -182,7 +182,8 @@ figcaption, figcaption p {
   margin-bottom: 50px;
   box-shadow: 8px 10px #ffd1f4;
   border: 5px solid #bfe0ff;
-  height: 5320px;
+  /* height: 5600px; */
+  height: auto;
 }
 
 .quote {

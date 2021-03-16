@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="css/site.css">
 	<script src="js/site.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -28,7 +29,7 @@
 
 	<!--WELCOME/PURPOSE	-->
 		<div id = "welcome">
-			<div class="main" id="topic0">
+			<div class="main" id="topic0" data-aos="flip-up">
 			  <h2>Hi there!</h2>
 				<p>Welcome to our page where we talk about all things sex: safety, sexuality, anatomy, and more!
 				</p>
@@ -45,7 +46,7 @@
 		</div>
 
 	<!-- TOPIC 1: Sexualities(Ryan, Elena) -->
-		<div id = "topic1">
+		<div id = "topic1" data-aos="fade-right">
 			<p>The sex ed you had in school probably only taught you about heteronormative sex, meaning between a man and a woman. The
 				problem is that this does not represent everyone's sexual experience.</p>
 			<h1> Sexual Orientation </h1>
@@ -157,6 +158,11 @@
 					</div>
 				</div>
 			</div>
+			<!-- Button to go back to welcome page and to 2nd topic -->
+			<div>
+				<a href="#topic0">Back</a>
+				<a href="#topic2">Continue</a>
+			</div>
 
 			</div>
 
@@ -164,11 +170,7 @@
 
 
 
-			<!-- Button to go back to welcome page and to 2nd topic -->
-					<div class="main" id="topic1">
-					  <a href="#topic0">Back</a>
-						<a href="#topic2">Continue</a>
-					</div>
+
 
 
 			</div>
@@ -181,7 +183,7 @@
 		</div>
 
 	<!-- TOPIC 2: Sexuality representation in USA/CA sex ed (Keaton) -->
-		<div id = "topic2">
+		<div id = "topic2" data-aos="flip-left">
 
 		<h1> Problem Areas </h1>
 			<div class= "mapdiv">
@@ -632,14 +634,14 @@
 			<div id="spoutput">
 
 			</div>
-
+			<!-- Button to go back to First topic and to 3rd topic -->
+			<div>
+				<a href="#topic1">Back</a>
+				<a href="#topic3">Continue</a>
+			</div>
 		</div>
 
-		<!-- Button to go back to First topic and to 3rd topic -->
-				<div class="main" id="topic2">
-					<a href="#topic1">Back</a>
-					<a href="#topic3">Continue</a>
-				</div>
+
 
 
 
@@ -651,7 +653,7 @@
 		</div>
 
 	<!-- TOPIC 3: Importance in learning about different sexualities (Gillian, safety) -->
-		<div id="topic3">
+		<div id="topic3" data-aos="flip-right">
 			<h1>Importance in Learning About Different Sexualities</h1>
 
 			<p>As you can see, traditional sexual education that is taught in schools actively excludes people who aren't
@@ -800,21 +802,19 @@
 				<p><a href="https://www.healthline.com/health/am-i-gay#sexual-and-reproductive-health">What does this mean for my sexual and reproductive health?</a></p>
 				<p><a href="https://www.healthline.com/health/lgbtqia-safe-sex-guide#pregnancy-and-st-is">LGBTQIA Safer Sex Guide<a></p>
 			</div>
+			<!-- Button to go back to 2nd Topic and to 4th topic -->
+			<div>
+				<a href="#topic2">Back</a>
+				<a href="#topic4">Continue</a>
+			</div>
 		</div>
-
-		<!-- Button to go back to 2nd Topic and to 4th topic -->
-				<div class="main" id="topic3">
-					<a href="#topic2">Back</a>
-					<a href="#topic4">Continue</a>
-				</div>
-
 
 		<div id = "transition4">
 
 		</div>
 
 	<!-- TOPIC 4: Importance in learning about different sexualities (Solomon, representation) -->
-		<div id = "topic4">
+		<div id = "topic4" data-aos="fade-up">
 			<h1>Positive Representation for LGBTQIA People</h1>
 			<p>
 				LGBTQIA people have often been misrepresented in media, and this can be seen in the demonization of gay and lesbian people in almost all media in the last 100 years.
@@ -869,13 +869,14 @@
 				<span class="dot" onclick="currentSlide(3)"></span>
 				<span class="dot" onclick="currentSlide(4)"></span>
 			</div>
+			<!-- Button to go back to 3rd Topic and to 5th topic -->
+			<div>
+				<a href="#topic3">Back</a>
+				<a href="#topic5">Continue</a>
+			</div>
 		</div>
 
-		<!-- Button to go back to 3rd Topic and to 5th topic -->
-				<div class="main" id="topic4">
-					<a href="#topic3">Back</a>
-					<a href="#topic5">Continue</a>
-				</div>
+
 
 
 		<div id = "transition5">
@@ -906,6 +907,9 @@
 			<h3>Credits</h3>
 			<p>Keaton Brasse, Ryan Masui, Gillian Yu, Solomon Bell, and Elena Ibbetson</p>
 		</div>
-
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 	</html>
