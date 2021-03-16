@@ -75,6 +75,20 @@ h1, h2, h3, h4{
 /* end of Gillian's changes to the css */
 
 /* Elena's changes to flags */
+/* #flexContainer1, #flexContainer2, #flexContainer3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+} */
+#flexBox1, #flexBox2, #flexBox3{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+
 .flag {
   width: 250px;
   height: 180px;
@@ -84,6 +98,7 @@ h1, h2, h3, h4{
   position: relative;
   width: 250px;
   height: 180px;
+
 }
 
 .img_description{
