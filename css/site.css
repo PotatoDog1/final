@@ -113,7 +113,7 @@ h1, h2, h3, h4{
 }
 
 
-/* map shit */
+/* map shit and some section 2 shit*/
 .mapdiv :hover{
     fill:#FF606A;
 }
@@ -129,8 +129,25 @@ h1, h2, h3, h4{
 #CA,#HI,#OR,#NV,#WA,#NM,#AZ,#HI,#AK,#MT,#WY,#SD,#WI,#MN,#KS,#NE,#AR,#IA,#IN,#ME,#MA,#VT,#RI,#CT,#NJ,#NH,#NY,#PA,#DA,#MD,#DC,#DE,#CO{
   fill:black;
 }
-
-
+#section2intro, #section2link{
+  font-style: oblique;
+  font-weight: bold;
+  text-shadow: 2px 2px white;
+}
+#spoutput h1{
+  height: auto;
+  font-style: oblique;
+  font-weight: bold;
+  text-shadow: 2px 2px #FF606A;
+  padding: 15px;
+}
+#spoutput {
+  height: auto;
+  font-style: oblique;
+  font-weight: bold;
+  text-shadow: 2px 2px #ADFFB4;
+  padding: 15px;
+}
 
 /* GILLIAN'S TOPIC 3 CSS START */
 /* colors of the panels for section 3, display is default invisible */
@@ -325,8 +342,8 @@ html {
 }
 
 #topic2 {
-  height: auto;
-  background-color: yellow;
+  height: 1000px;
+  background-color: #FCFC2D;
   padding: 15px;
 }
 
