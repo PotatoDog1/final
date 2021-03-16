@@ -4,7 +4,7 @@
  *
  * (c) Copyright
  **/
- $(document).ready(function() {
+ /*$(document).ready(function() {*/
    console.log("ready!");
   // initialize Animate on Scroll Library
    AOS.init();
@@ -372,4 +372,4 @@
       }
     }
   }
-})
+/*})*/
