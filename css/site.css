@@ -53,14 +53,14 @@ html {
 .show {display:block;}
 
 
-/* Gillian's changes to the css */
+/* Gillian's changes to the general css */
 body {
   margin: 50px;
   /* filler for font family */
   font-family: sans-serif;
 }
 
-p, a, figcaption {
+p, figcaption {
   font-size: 20px;
 }
 
@@ -68,8 +68,9 @@ li {
   font-size: 18px;
 }
 
-h2, h3{
+h1, h2, h3, h4{
   font-style: oblique;
+  text-shadow: 2px 2px white;
 }
 /* end of Gillian's changes to the css */
 
@@ -131,26 +132,42 @@ h2, h3{
 
 
 
-
+/* GILLIAN'S TOPIC 3 CSS START */
 /* colors of the panels for section 3, display is default invisible */
 /* alternating colors for flip1, flip3, flip5, and flip2, flip4, flip6 */
 /* alternating colors for section 3, colored in blue */
-figcaption {
+figcaption, figcaption p {
   padding-top: 10px;
+  text-decoration: underline overline;
+  text-decoration-style: dotted;
+  text-decoration-color: #11a2bf;
 }
 
 #topic3 {
-  background-color: #b3ffc6;
+  background-color: #fff9e6;
   padding: 40px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 50px;
   box-shadow: 8px 10px #ffd1f4;
   border: 5px solid #bfe0ff;
+  height: 5320px;
 }
 
+.quote {
+  font-size: 120%;
+}
+
+.underlineoverline {
+  text-decoration: underline overline #fcba03;
+  font-size: 150%;
+}
+
+/* styles the hyperlinks so that there is no underline */
 #link1:link, #link2:link, #link3:link, #link4:link, #link5:link, #link6:link{
   text-decoration: none;
 }
 
+/* changes the background color of the panel buttons when hovering over them */
 #flip1:hover, #flip3:hover,  #flip5:hover {
   background-color: #ed8c92;
   font-size: 110%;
@@ -161,6 +178,8 @@ figcaption {
   font-size: 110%;
   overflow: hidden;
 }
+
+/* css for the information located under the panels */
 #flip1, #flip3, #flip5 {
   transition-duration: .8s;
   font-size: 16px;
@@ -170,6 +189,8 @@ figcaption {
   background-color: #8cede7;
   color: white;
   margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* alternating colors for section 3, colored in pink */
@@ -182,7 +203,8 @@ figcaption {
   background-color: #ffa1f2;
   color: white;
   margin: auto;
-
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* information within each flip header */
@@ -192,10 +214,63 @@ figcaption {
   padding:30px;
 }
 
+/* style h3 headings under panel 1, 3, 5 */
+#panel1 h3, #panel3 h3, #panel5 h3 {
+  text-shadow: 2px 2px #ffa1f2;
+}
+/* unvisited links under panel 1, 3, 5 */
+#panel1 a:link, #panel3 a:link, #panel5 a:link {
+  color: #ff9d6b;
+}
+
+/* visited links under panel 1, 3, 5 */
+#panel1 a:visited, #panel3 a:visited, #panel5 a:visited {
+  color: #e15eff;
+}
+
+/* mouse over link */
+#panel1 a:hover, #panel3 a:hover, #panel5 a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+#panel1 a:active, #panel3 a:active, #panel5 a:active {
+  color: #c5ffb0;
+}
+
 #panel2, #panel4, #panel6 {
   display: none;
   background-color: #ffe0fb;
-  padding:30px;
+  padding: 30px;
+}
+
+/* unvisited links under panel 2, 4, 6 */
+#panel2 a:link, #panel4 a:link, #panel6 a:link {
+  color: #ff9d6b;
+}
+
+/* visited links under panel 2, 4, 6 */
+#panel2 a:visited, #panel4 a:visited, #panel6 a:visited {
+  color: #5eb1ff;
+}
+
+/* mouse over link */
+#panel2 a:hover, #panel4 a:hover, #panel6 a:hover {
+  color: #1ce8ff;
+}
+
+/* selected link */
+#panel2 a:active, #panel4 a:active, #panel6 a:active {
+  color: #fff6a6;
+}
+
+#panel2 h2, #panel4 h2, #panel6 h2 {
+  text-shadow: 2px 2px #6ff7ee;
+}
+
+#panel2 h3, #panel4 h3, #panel6 h3 {
+  text-shadow: 2px 2px #ffb700;
+  font-size: 130%;
 }
 
 /* center images */
@@ -205,7 +280,31 @@ figcaption {
   margin-right: auto;
   box-shadow: 8px 10px #bfe0ff;
 }
+
+/* unvisited links under panel #learnmore */
+#learnmore a:link{
+  color: #ff9d6b;
+}
+
+/* visited links under panel #learnmore */
+#learnmore a:visited {
+  color: #5eb1ff;
+}
+
+/* mouse over link #learnmore*/
+#learnmore a:hover {
+  color: #1ce8ff;
+}
+
+/* selected link */
+#learnmore a:active {
+  color: #fff6a6;
+}
+
+
 /* look up tooltip */
+/* GILLIAN'S TOPIC 3 CSS END */
+
 /* styles each of the sections */
 html {
   scroll-behavior: smooth;
@@ -231,11 +330,11 @@ html {
   padding: 15px;
 }
 
-#topic3 {
+/* #topic3 {
   height: auto;
   background-color: orange;
   padding: 15px;
-}
+} */
 
 #topic4 {
   background-color: teal;
