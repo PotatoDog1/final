@@ -1,5 +1,6 @@
 html {
   background: #0d0d0d;
+  scroll-behavior: smooth;
 }
 
 /* Dropdown Button */
@@ -13,6 +14,7 @@ html {
   position: fixed;
   top: 5px;
   right: 5px;
+  z-index: 3;
 }
 
 /* Dropdown button on hover & focus */
@@ -23,9 +25,10 @@ html {
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   top: 55px;
-  right: 172px;
+  right: 165px;
   position: fixed;
   display: inline-block;
+  z-index: 3;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -35,7 +38,7 @@ html {
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 3;
 }
 
 /* Links inside the dropdown */
@@ -44,6 +47,7 @@ html {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  z-index: 3;
 }
 
 /* Change color of dropdown links on hover */
@@ -51,6 +55,7 @@ html {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+/*end of dropdown button*/
 
 
 /* Gillian's changes to the general css */
@@ -339,35 +344,28 @@ figcaption, figcaption p {
 /* GILLIAN'S TOPIC 3 CSS END */
 
 /* styles each of the sections */
-html {
-  scroll-behavior: smooth;
-}
-
-
 
 #topic0 {
   height: 600px;
-  background-color: tan;
-  padding: 15px;
+  background-color: #73be73;
+  padding: 40px;
+  margin-bottom: 20px;
 }
 
 #topic1 {
-  height: 2000px;
+  min-height: 1200px;
+  height: auto;
   background-color: pink;
-  padding: 15px;
+  padding: 40px;
+  margin-bottom: 20px;
 }
 
 #topic2 {
   height: 1000px;
   background-color: #FCFC2D;
-  padding: 15px;
+  padding: 40px;
+  margin-bottom: 20px;
 }
-
-/* #topic3 {
-  height: auto;
-  background-color: orange;
-  padding: 15px;
-} */
 
 #topic4 {
   background-color: teal;
@@ -379,8 +377,11 @@ html {
 
 #topic5 {
   height: 600px;
-  background-color: pink;
-  padding: 15px;
+  background-color: salmon;
+  padding: 40px;
+  margin-bottom: 20px;
+  box-shadow: 8px 10px pink;
+  border: 5px solid red;
 }
 
 /*Topic 4 Slideshow css*/
