@@ -1,3 +1,32 @@
+/* title css  */
+#home {
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#home h1 {
+  /* text-shadow: 2px 2px #69e3ff; */
+  text-shadow: 5px 5px #ff365e, -8px 8px #69e3ff;
+  font-size: 160px;
+  /* text-decoration: underline overline white; */
+  text-decoration-color: #ff94fb;
+  color: white;
+}
+
+#underlineoverline {
+  text-decoration: underline overline white;
+}
+
+#overline {
+  text-decoration: overline white;
+}
+
+#underline {
+  text-decoration: underline white;
+}
+
 html {
   background: #0d0d0d;
   scroll-behavior: smooth;
@@ -57,10 +86,54 @@ html {
 .show {display:block;}
 /*end of dropdown button*/
 
+/* gillian's changes to buttons css */
+.backButt {
+  transition-duration: .8s;
+  background-color: #ff8286;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: block;
+  width: 40%;
+  left: 40px;
+  position: absolute;
+  margin-right: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.backButt:hover {
+  background-color: #9054f0;
+  font-size: 120%;
+  overflow: hidden;
+}
+
+.contButt {
+  transition-duration: .8s;
+  background-color: #54f09f;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: block;
+  width: 40%;
+  right: 40px;
+  position: absolute;
+  margin-right: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.contButt:hover {
+  background-color: #bd8235;
+  font-size: 120%;
+  overflow: hidden;
+}
+
 
 /* Gillian's changes to the general css */
 body {
-  margin: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
   /* filler for font family */
   font-family: sans-serif;
 }
@@ -182,13 +255,19 @@ figcaption, figcaption p {
 
 #topic3 {
   background-color: #fff9e6;
-  padding: 40px;
+  padding-top: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 100px;
   margin-top: 40px;
   margin-bottom: 50px;
   box-shadow: 8px 10px #ffd1f4;
   border: 5px solid #bfe0ff;
-  /* height: 5600px; */
   height: auto;
+}
+
+#topic3 h1 {
+  text-shadow: 2px 2px pink;
 }
 
 .quote {
@@ -229,6 +308,7 @@ figcaption, figcaption p {
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
+  width: 600px;
 }
 
 /* alternating colors for section 3, colored in pink */
@@ -243,6 +323,7 @@ figcaption, figcaption p {
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
+  width: 600px;
 }
 
 /* information within each flip header */
@@ -350,6 +431,8 @@ figcaption, figcaption p {
   background-color: #73be73;
   padding: 40px;
   margin-bottom: 20px;
+  box-shadow: 8px 10px #73d9c4;
+  border: 5px solid #d6e66e;
 }
 
 #topic1 {
@@ -357,15 +440,21 @@ figcaption, figcaption p {
   height: auto;
   background-color: pink;
   padding: 40px;
+  padding-bottom: 100px;
   margin-bottom: 20px;
+  box-shadow: 8px 10px #8f98ff;
+  border: 5px solid #d4fffe;
 }
 
 #topic2 {
-  height: 1000px;
+  height: 1200px;
   background-color: #FCFC2D;
   padding: 40px;
   margin-bottom: 20px;
+  box-shadow: 8px 10px #4fff6c;
+  border: 5px solid #faa3ff;
 }
+
 
 #topic4 {
   background-color: teal;
@@ -373,6 +462,7 @@ figcaption, figcaption p {
   margin-bottom: 20px;
   box-shadow: 8px 10px green;
   border: 5px solid yellow;
+  padding-bottom: 100px;
 }
 
 #topic5 {
